@@ -1,0 +1,12 @@
+server:
+  port: 8585
+spring:
+  datasource:
+    jndi-name: java:jboss/datasources/MySqlDS
+  jpa:
+    database: default
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+  
+  jms:
+    jndi-name: java:/DemoConnectionFactory
+
