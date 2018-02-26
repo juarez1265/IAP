@@ -1,0 +1,12 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.demo.config.JpaConfiguration",
+      "name": "spring.datasource",
+      "sourceMethod": "public javax.sql.DataSource dataSource() throws javax.naming.NamingException",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}
